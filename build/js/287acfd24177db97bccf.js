@@ -4372,8 +4372,10 @@
                             var n = e(t.currentTarget);
                             n.parent().addClass("focused"), n.parent().removeClass("error")
                         })), this._bindTo(i, "blur", (function(t) { var n = e(t.currentTarget); "" === e.trim(n.val()) && n.parent().removeClass("focused") }));
-                        new r.a({ mask: "+7 (h99) 999-99-99", definitions: { h: { validator: "[0-6-9]", cardinality: 1 } } }).mask(".input_phone"), this.reCaptcha(), window.call_value && (t.append('<input type="hidden" name="session_id" value="' + window.call_value + '">'), t.append('<input type="hidden" name="page_url" value="' + window.location.href + '">')), this._bindTo(t, "submit", (function(t) { t.preventDefault();
-                            console.log(t.target) }))
+                        new r.a({ mask: "+7 (h99) 999-99-99", definitions: { h: { validator: "[0-6-9]", cardinality: 1 } } }).mask(".input_phone"), this.reCaptcha(), window.call_value && (t.append('<input type="hidden" name="session_id" value="' + window.call_value + '">'), t.append('<input type="hidden" name="page_url" value="' + window.location.href + '">')), this._bindTo(t, "submit", (function(t) {
+                            t.preventDefault();
+                            console.log(t.target)
+                        }))
                     }
                 }
             }, {
@@ -4853,6 +4855,11 @@
                 e.prototype = Object.create(t && t.prototype, { constructor: { value: e, writable: !0, configurable: !0 } }), t && _setPrototypeOf(e, t)
             }(PhotoGallery, t);
             var n = _createSuper(PhotoGallery);
+            e('[data-js="lab-gallery-slider"]').slick({
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 1200,
+            });
 
             function PhotoGallery() { return _classCallCheck(this, PhotoGallery), n.apply(this, arguments) }
             return function _createClass(e, t, n) { return t && _defineProperties(e.prototype, t), n && _defineProperties(e, n), e }(PhotoGallery, [{ key: "_init", value: function _init() { this.$wrappers = e('[data-js="photo-gallery-slider-wrapper"]'); return this.options = e.extend({ infinite: !0, dots: !1, arrows: !1, autoplay: !0, autoplaySpeed: 4e3, slidesToShow: 3, responsive: [{ breakpoint: 768, settings: { slidesToShow: 1 } }] }, this.options, !0), !0 } }, { key: "_bind", value: function _bind() { var t = this; return this.$wrappers.each((function(n, i) { e(i).find('[data-js="photo-gallery-slider"]').slick(t.options) })), !0 } }]), PhotoGallery

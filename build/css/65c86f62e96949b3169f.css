@@ -2956,6 +2956,10 @@ textarea.input {
     letter-spacing: .7px
 }
 
+.header__address a:hover {
+    text-decoration: underline;
+}
+
 .header__worktime {
     white-space: nowrap
 }
@@ -2988,7 +2992,14 @@ textarea.input {
     color: #111f2c;
     padding: 15px 12px;
     display: block;
-    position: relative
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header__menu li a svg {
+    margin-left: 15px;
 }
 
 .header__menu li a:after {
@@ -3610,7 +3621,6 @@ textarea.input {
 .quiz {
     max-width: none;
     background-color: #ecf6f9;
-    margin-top: 126px
 }
 
 .quiz__form {
@@ -4129,9 +4139,6 @@ textarea.input {
 }
 
 @media screen and (max-width:1199px) {
-    .quiz {
-        margin-top: 73px
-    }
     .quiz__grid {
         margin-right: -15px;
         margin-left: -15px
@@ -4212,9 +4219,6 @@ textarea.input {
 }
 
 @media screen and (max-width:1023px) {
-    .quiz {
-        margin-top: 60px
-    }
     .quiz__grid {
         flex-wrap: wrap;
         padding-top: 75px
@@ -4351,9 +4355,6 @@ textarea.input {
 }
 
 @media screen and (max-width:875px) {
-    .quiz {
-        margin-top: 48px
-    }
     .quiz__grid {
         padding: 45px 5px
     }
@@ -5600,7 +5601,7 @@ textarea.input {
 }
 
 .price {
-    padding: 126px 0 12px
+    padding: 76px 0 12px
 }
 
 .price .main-callback__body {
@@ -5735,9 +5736,6 @@ textarea.input {
 }
 
 @media screen and (max-width:1199px) {
-    .price {
-        padding: 73px 0 61px
-    }
     .price__list {
         margin-top: 28px
     }
@@ -5788,9 +5786,6 @@ textarea.input {
 }
 
 @media screen and (max-width:1023px) {
-    .price {
-        padding: 60px 0 106px
-    }
     .price__list {
         margin-top: 33px
     }
@@ -5824,18 +5819,6 @@ textarea.input {
     .price__advantage {
         font-size: 13px;
         margin-top: 13px
-    }
-}
-
-@media screen and (max-width:850px) {
-    .price {
-        padding: 60px 0 90px
-    }
-}
-
-@media screen and (max-width:832px) {
-    .price {
-        padding: 60px 0 62px
     }
 }
 
@@ -6160,9 +6143,9 @@ textarea.input {
 }
 
 .works {
-    background-image: linear-gradient(0deg, #f3f6f8, #f5e7dc);
-    padding-top: 120px;
-    padding-bottom: 116px
+    background-image: linear-gradient(0deg, #f3f6f8, #f8ece4);
+    padding: 50px 0;
+    margin-top: 60px;
 }
 
 .works_arrows {
@@ -6431,10 +6414,6 @@ textarea.input {
 }
 
 @media screen and (max-width:1199px) {
-    .works {
-        padding-top: 80px;
-        padding-bottom: 76px
-    }
     .works__slider {
         margin-top: 45px
     }
@@ -6567,8 +6546,7 @@ textarea.input {
 
 @media screen and (max-width:567px) {
     .works {
-        padding-top: 47px;
-        padding-bottom: 47px
+        padding: 30px 0;
     }
     .works__slider {
         margin-top: 26px
@@ -6894,7 +6872,7 @@ textarea.input {
 }
 
 .photo-gallery {
-    margin: 136px 0 -110px -15px
+    margin: 50px 0
 }
 
 .photo-gallery .slick-list {
@@ -6911,7 +6889,7 @@ textarea.input {
 
 @media screen and (max-width:1199px) {
     .photo-gallery {
-        margin: 75px -12px -90px
+        margin: 50px 0;
     }
     .photo-gallery .slick-slide {
         padding: 0 12px
@@ -6920,7 +6898,7 @@ textarea.input {
 
 @media screen and (max-width:1023px) {
     .photo-gallery {
-        margin: 38px -41px -70px
+        margin: 40px 0;
     }
     .photo-gallery .slick-slide {
         padding: 0 9px
@@ -6929,15 +6907,14 @@ textarea.input {
 
 @media screen and (max-width:767px) {
     .photo-gallery {
-        margin: 35px auto -74px;
+        margin: 35px 0;
         width: 280px
     }
 }
 
 .employees {
     background-color: #ecf6f9;
-    padding-top: 234px;
-    padding-bottom: 102px
+    padding: 70px 0;
 }
 
 .employees .quote {
@@ -7097,21 +7074,6 @@ textarea.input {
 
 .employees__achievements>:last-child {
     margin-right: 0
-}
-
-.employees__achievements>:after {
-    content: "";
-    width: 40px;
-    height: 40px;
-    background: rgba(17, 31, 44, .8) url(../i/ebe6ba02eb614f51983425d15c883fc0.svg) 50%/45% no-repeat;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(.3);
-    pointer-events: none;
-    opacity: 0;
-    border-radius: 50%;
-    transition: transform .3s, opacity .3s
 }
 
 .employees__achievements>:hover:after {
@@ -8554,14 +8516,12 @@ textarea.input {
 }
 
 .m-safety {
-    margin-top: 146px;
-    margin-bottom: 82px
+    margin: 70px 0;
 }
 
 .m-safety__flex {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 43px
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .m-safety__flex>div {
@@ -8592,8 +8552,7 @@ textarea.input {
 
 @media screen and (max-width:1280px) {
     .m-safety {
-        margin-bottom: 67px;
-        margin-top: 98px
+        margin: 50px 0;
     }
     .m-safety .subtitle {
         margin-top: 10px
@@ -8617,10 +8576,6 @@ textarea.input {
 }
 
 @media screen and (max-width:1023px) {
-    .m-safety {
-        margin-top: 74px;
-        margin-bottom: 51px
-    }
     .m-safety__flex {
         margin-top: 26px
     }
@@ -8641,7 +8596,7 @@ textarea.input {
 
 @media screen and (max-width:767px) {
     .m-safety {
-        margin: 45px 0
+        margin: 30px 0
     }
 }
 
