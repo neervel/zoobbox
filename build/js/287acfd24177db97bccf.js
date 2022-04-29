@@ -4374,7 +4374,14 @@
                         })), this._bindTo(i, "blur", (function(t) { var n = e(t.currentTarget); "" === e.trim(n.val()) && n.parent().removeClass("focused") }));
                         new r.a({ mask: "+7 (h99) 999-99-99", definitions: { h: { validator: "[0-6-9]", cardinality: 1 } } }).mask(".input_phone"), this.reCaptcha(), window.call_value && (t.append('<input type="hidden" name="session_id" value="' + window.call_value + '">'), t.append('<input type="hidden" name="page_url" value="' + window.location.href + '">')), this._bindTo(t, "submit", (function(t) {
                             t.preventDefault();
-                            console.log(t.target)
+                            e.ajax({
+                                url: 't.attr("action")',
+                                type: 'POST',
+                                dataType: "json",
+                                data: t.serialize(),
+                                success: function success(e) { alert("Заявка отправлена успешно!") },
+                                error: function error() { alert("Ой, что-то пошло не так! \r\n Заявку НЕ удалось отправить") },
+                            })
                         }))
                     }
                 }
