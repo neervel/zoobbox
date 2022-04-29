@@ -2529,28 +2529,6 @@ textarea.input {
     }
 }
 
-.header {
-    background-color: #dee5e9;
-    z-index: 20;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%
-}
-
-.header .row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 30px;
-    padding-bottom: 18px
-}
-
-.header .row>* {
-    flex: 0 1 auto
-}
-
 .header__logo {
     display: flex;
     align-items: center

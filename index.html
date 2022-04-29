@@ -647,8 +647,6 @@
             <div class="row">
                 <div class="quiz__wrapper" data-js-quiz="wrapper">
                     <form class="quiz__form" method="POST" action="/mail" data-js="ajax-form" data-js-goal="form:complete" data-js-goal-data="{&quot;ym&quot;:&quot;form-send&quot;,&quot;gl&quot;:{&quot;action&quot;:&quot;g-send&quot;,&quot;category&quot;:&quot;g-form&quot;},&quot;vk&quot;:&quot;submit_application&quot;}">
-                        <input type="hidden" class="recaptcha-input" name="g-recaptcha-response"> <input type="tel" class="input input_phone_recaptcha" name="phone" placeholder="+7"> <input type="hidden" name="subject" value="Пройден тест (квиз)">
-                        <input type="hidden" name="form_type" value="modal_quiz">
                         <div class="quiz__grid">
                             <div class="quiz__questions">
                                 <h2 class="h2"> Рассчитайте предварительную стоимость <span>имплантации прямо сейчас</span> </h2> <span class="quiz__sub-title">Ответьте всего на 5 вопросов</span>
@@ -707,7 +705,7 @@
                                 <div class="quiz__results-subheader"> Оставьте свой номер телефона и получите расчёт стоимости в течение дня </div>
                                 <div class="quiz__results-grid">
                                     <div class="quiz__results-inner">
-                                        <div class="form__group required"> <input type="tel" class="input input_phone" name="id"> <label>Ваш телефон*</label> </div>
+                                        <div class="form__group required"> <input type="tel" class="input input_phone" name="phone"> <label>Ваш телефон*</label> </div>
                                         <div class="form__group"> <button type="submit" class="btn btn_submit"> <span>Получить расчёт</span> </button> </div>
                                         <div class="form__policy"> Нажимая кнопку «Получить расчёт», вы даёте согласие на обработку персональных данных <br /> в соответствии с <a class="underline" href="/usloviya" target="_blank"><span>Политикой конфиденциальности</span></a>.
                                         </div>
@@ -879,8 +877,8 @@
             <div class="modal__wrapper">
                 <h2 class="modal-form__title">Заказать обратный звонок</h2>
                 <form class="modal-form" action="/mail" method="post" data-js="ajax-form" data-js-goal="form:complete" data-js-goal-data="{&quot;ym&quot;:&quot;form-send&quot;,&quot;gl&quot;:{&quot;action&quot;:&quot;g-send&quot;,&quot;category&quot;:&quot;g-form&quot;},&quot;vk&quot;:&quot;submit_application&quot;}"
-                    class="form" autocomplete="off"> <input type="hidden" class="recaptcha-input" name="g-recaptcha-response"> <input type="tel" class="input input_phone_recaptcha" name="phone" placeholder="+7">
-                    <div class="form__group required"> <input type="tel" class="input input_phone" name="id"> <label>Ваш телефон*</label> </div>
+                    class="form" autocomplete="off">
+                    <div class="form__group required"> <input type="tel" class="input input_phone" name="phone"> <label>Ваш телефон*</label> </div>
                     <div class="form__group"> <button type="submit" class="btn btn_submit"><span>Отправить</span></button> </div>
                     <div class="form__free"> Это бесплатно и ни&nbsp;к&nbsp;чему вас не&nbsp;обязывает </div>
                     <div class="form__policy"> Нажимая кнопку «Забронировать стоимость», вы даёте согласие на обработку персональных данных<br/> в соответствии с
@@ -892,8 +890,6 @@
             <div class="quiz modal__wrapper">
                 <div class="quiz__wrapper" data-js-quiz="wrapper">
                     <form class="quiz__form" method="POST" action="/mail" data-js="ajax-form" data-js-goal="form:complete" data-js-goal-data="{&quot;ym&quot;:&quot;form-send&quot;,&quot;gl&quot;:{&quot;action&quot;:&quot;g-send&quot;,&quot;category&quot;:&quot;g-form&quot;},&quot;vk&quot;:&quot;submit_application&quot;}">
-                        <input type="hidden" class="recaptcha-input" name="g-recaptcha-response"> <input type="tel" class="input input_phone_recaptcha" name="phone" placeholder="+7"> <input type="hidden" name="subject" value="Пройден тест (квиз)">
-                        <input type="hidden" name="form_type" value="modal_quiz">
                         <div class="quiz__grid">
                             <div class="quiz__questions">
                                 <h2 class="h2"> Рассчитайте предварительную стоимость <span>имплантации прямо сейчас</span> </h2> <span class="quiz__sub-title">Ответьте всего на 5 вопросов</span>
@@ -953,14 +949,14 @@
                                 <div class="quiz__results-subheader"> Оставьте свой номер телефона и получите расчёт стоимости в течение дня </div>
                                 <div class="quiz__results-grid">
                                     <div class="quiz__results-inner">
-                                        <div class="form__group required"> <input type="tel" class="input input_phone" name="id"> <label>Ваш телефон*</label> </div>
+                                        <div class="form__group required"> <input type="tel" class="input input_phone" name="phone"> <label>Ваш телефон*</label> </div>
                                         <div class="form__group"> <button type="submit" class="btn btn_submit"> <span>Получить расчёт</span> </button> </div>
                                         <div class="form__policy"> Нажимая кнопку «Получить расчёт», вы даёте согласие на обработку персональных данных <br /> в соответствии с <a class="underline" href="/usloviya" target="_blank"><span>Политикой конфиденциальности</span></a>.
                                         </div>
                                     </div>
                                     <div class="gift">
-                                        <div class="gift__title"> <span class="hidden">Вам два подарка за прохождение теста:</span>
-                                            <!--noindex--><span class="shower">Вам 2 подарка:</span>
+                                        <div class="gift__title"> <span class="hidden">Вам подарок за прохождение теста:</span>
+                                            <!--noindex--><span class="shower">Вам подарок:</span>
                                             <!--noindex-->
                                         </div>
                                         <div class="gift__grid">
@@ -977,8 +973,8 @@
                         <div class="quiz__after-submit-title"> Спасибо! <span>Мы получили вашу заявку</span> </div>
                         <div class="quiz__after-submit-subtitle"> Позвоним в течение дня, чтобы уточнить детали и сделать точный </div>
                         <div class="gift">
-                            <div class="gift__title"> <span class="hidden">Вам два подарка за прохождение теста:</span>
-                                <!--noindex--><span class="shower">Вам 2 подарка:</span>
+                            <div class="gift__title"> <span class="hidden">Вам подарок за прохождение теста:</span>
+                                <!--noindex--><span class="shower">Вам подарок:</span>
                                 <!--noindex-->
                             </div>
                             <div class="gift__grid">
@@ -992,6 +988,25 @@
         </div>
     </div>
     <script src="./build/js/287acfd24177db97bccf.js"></script>
+    <script>
+        $(function() {
+            $('form').submit((e) => {
+                e.preventDefault();
+                $.ajax({
+                    url: 'https://center-dent.ru/wp-content/themes/cdent/form.php',
+                    type: 'POST',
+                    dataType: "html",
+                    data: $(e.target).serialize(),
+                    success: function success(e) {
+                        alert("Заявка отправлена успешно!")
+                    },
+                    error: function error(err) {
+                        console.log(err)
+                    },
+                })
+            })
+        })
+    </script>
 </body>
 
 </html>
