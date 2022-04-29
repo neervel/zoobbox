@@ -3868,7 +3868,8 @@ textarea.input {
 }
 
 .quiz__doctor .img {
-    border-radius: 50%
+    border-radius: 50%;
+    max-width: 180px;
 }
 
 .quiz__doctor:before {

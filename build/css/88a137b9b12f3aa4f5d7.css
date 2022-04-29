@@ -1418,45 +1418,6 @@ ol.count-list li:before {
     color: #9c9c9c
 }
 
-.mfp-content .modal {
-    display: block
-}
-
-.modal {
-    width: 100%;
-    max-width: 500px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    position: relative;
-    display: none
-}
-
-.modal__wrapper {
-    background-color: #fff;
-    padding: 50px
-}
-
-.modal__title {
-    font-size: 24px;
-    font-weight: 800;
-    margin-bottom: 25px;
-    color: #233567;
-    text-align: center
-}
-
-.modal__text {
-    font-size: 18px
-}
-
-.mfp_modal-success {
-    max-width: 600px
-}
-
-.mfp_modal-success .modal__title {
-    text-align: left
-}
-
 @media screen and (max-width:767px) {
     .modal__wrapper {
         padding: 35px 20px 20px
