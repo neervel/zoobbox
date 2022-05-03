@@ -925,7 +925,7 @@ b {
 
 img {
     max-width: 100%;
-    height: auto
+    height: 100%
 }
 
 strong {
@@ -2881,10 +2881,6 @@ textarea.input {
     top: 0
 }
 
-.header+* {
-    margin-top: 140px
-}
-
 .header_not-menu {
     position: relative
 }
@@ -3130,7 +3126,7 @@ textarea.input {
     background: linear-gradient(90deg, #def1ee, #def1ee 40%, rgba(249, 218, 201, 0) 66%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 55% top/auto 650px no-repeat;
     padding-top: 38px;
     padding-bottom: 78px;
-    height: 645px
+    margin-top: 90px;
 }
 
 .fs__advantages,
@@ -3416,7 +3412,6 @@ textarea.input {
         padding-bottom: 54px;
         background-position: 65% 100%;
         background-size: auto 100%;
-        height: 610px
     }
     .fs__calc {
         margin-top: 20px
@@ -3438,7 +3433,6 @@ textarea.input {
     .first-screen {
         padding-top: 28px;
         padding-bottom: 24px;
-        height: 560px;
         background-position: 70% 100%
     }
     .fs__flex-bottom {
@@ -3450,7 +3444,6 @@ textarea.input {
     .first-screen {
         background: radial-gradient(at 100%, at 100px, rgba(222, 241, 238, 0) 0, #def1ee 80%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 70% top/auto 650px no-repeat;
         background: radial-gradient(at 100% 100px, rgba(222, 241, 238, 0) 0, #def1ee 80%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 70% top/auto 650px no-repeat;
-        height: 670px
     }
     .fs__flex {
         width: 320px
@@ -3526,7 +3519,6 @@ textarea.input {
     .first-screen {
         background: radial-gradient(at 100%, at 100px, rgba(222, 241, 238, 0) 0, #def1ee 50%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 70% top/auto 470px no-repeat;
         background: radial-gradient(at 100% 100px, rgba(222, 241, 238, 0) 0, #def1ee 50%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 70% top/auto 470px no-repeat;
-        height: 650px
     }
 }
 
@@ -5274,7 +5266,7 @@ textarea.input {
     align-items: center;
     background-position: 35px, 0;
     background-repeat: no-repeat;
-    margin-top: -130px;
+    margin-top: 30px;
     box-shadow: 0 16px 65px rgba(89, 81, 82, .17);
     border-radius: 14px;
     position: relative;
@@ -5390,7 +5382,6 @@ textarea.input {
         font-size: 14px
     }
     .tabs__callback {
-        margin-top: -100px;
         padding: 10px 57px 20px 34.2%;
         background-size: 255px auto, auto 100%;
         min-height: 205px
@@ -5474,7 +5465,6 @@ textarea.input {
 
 @media screen and (max-width:879px) {
     .tabs__callback {
-        margin-top: -100px;
         padding: 10px 32px 20px;
         min-height: 185px;
         background-image: linear-gradient(90deg, rgba(154, 154, 174, .75), rgba(154, 154, 174, .75)), url(../i/ec75d9ba6aa928544e1bfe7fd62b315c.png), url(../i/1d9a82ac9fe7152d21baad3bf7e02f73.png);
@@ -5567,7 +5557,6 @@ textarea.input {
     }
     .tabs__callback {
         font-size: 15px;
-        margin-top: -52px
     }
     .tabs__callback-title {
         font-size: 24px;
@@ -5642,12 +5631,7 @@ textarea.input {
 .price__img {
     width: 150px;
     margin-right: 27px;
-    background-color: #f7f6ec;
     border-radius: 6px
-}
-
-.price__img_alter {
-    background-color: #dcf0fe
 }
 
 .price__info {
