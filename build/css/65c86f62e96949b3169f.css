@@ -2872,13 +2872,10 @@ textarea.input {
 
 .header {
     display: block;
-    position: absolute;
-    transform: translateY(0);
     transition: background .1s ease-out, box-shadow .1s ease-out;
     width: 100%;
     background: transparent;
     background: #fff;
-    top: 0
 }
 
 .header_not-menu {
@@ -3028,9 +3025,6 @@ textarea.input {
 }
 
 @media screen and (max-width:1199px) {
-    .header+* {
-        margin-top: 130px
-    }
     .header__top {
         padding: 19px 0 13px
     }
@@ -3058,9 +3052,6 @@ textarea.input {
 }
 
 @media screen and (max-width:1023px) {
-    .header+* {
-        margin-top: 118px
-    }
     .header__top {
         padding: 13px 0 14px
     }
@@ -3100,9 +3091,6 @@ textarea.input {
 }
 
 @media screen and (max-width:667px) {
-    .header+* {
-        margin-top: 68px
-    }
     .header__top {
         padding: 9px 0 8px;
         border-bottom: initial
@@ -3126,7 +3114,6 @@ textarea.input {
     background: linear-gradient(90deg, #def1ee, #def1ee 40%, rgba(249, 218, 201, 0) 66%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 55% top/auto 650px no-repeat;
     padding-top: 38px;
     padding-bottom: 78px;
-    margin-top: 90px;
 }
 
 .fs__advantages,
