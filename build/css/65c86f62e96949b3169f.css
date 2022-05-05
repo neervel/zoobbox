@@ -995,7 +995,7 @@ strong {
 
 @keyframes info-shadow {
     20% {
-        box-shadow: 0 0 5px #00a18c
+        box-shadow: 0 0 5px #8E8DCF
     }
     to {
         box-shadow: 0 0 100px #fff
@@ -1186,7 +1186,7 @@ strong {
     height: 44px;
     justify-content: center;
     align-items: center;
-    background: #00a18c;
+    background: #8E8DCF;
     padding: 13px;
     box-shadow: none
 }
@@ -1349,7 +1349,7 @@ strong {
 }
 
 .link {
-    color: #00a18c
+    color: #8E8DCF
 }
 
 .underline>* {
@@ -1944,7 +1944,7 @@ textarea.input {
 .slider__arrows span {
     display: block;
     position: absolute;
-    background-color: #00a18c;
+    background-color: #8E8DCF;
     opacity: 1;
     transition: opacity .3s, box-shadow .3s;
     width: 60px;
@@ -2173,7 +2173,7 @@ textarea.input {
     width: 100%;
     height: .1154em;
     left: 0;
-    background: #00a18c;
+    background: #8E8DCF;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -2185,7 +2185,7 @@ textarea.input {
 }
 
 .old-price_alter .old-price__value:after {
-    background: #00a18c
+    background: #8E8DCF
 }
 
 .header__new-year.header_not-menu .row:after,
@@ -2324,7 +2324,7 @@ textarea.input {
 }
 
 .m-contact-ribbon {
-    background-color: #00a18c;
+    background-color: #8E8DCF;
     font-size: 18px;
     color: #fff;
     height: 100px;
@@ -2345,7 +2345,7 @@ textarea.input {
 }
 
 .m-contact-ribbon__item i {
-    background-color: #4dbdaf;
+    background-color: #C5C2ED;
     border-radius: 6px;
     margin-right: 24px;
     display: flex;
@@ -2424,7 +2424,7 @@ textarea.input {
     width: 150px;
     margin: auto;
     position: relative;
-    stroke: #00a18c;
+    stroke: #8E8DCF;
     transform-origin: center center
 }
 
@@ -2576,7 +2576,7 @@ textarea.input {
 .m-contact__info__requisites .mail {
     margin-top: 10px;
     margin-bottom: auto;
-    color: #00a18c
+    color: #8E8DCF
 }
 
 .m-contact__info__requisites .requisites {
@@ -3230,7 +3230,7 @@ textarea.input {
 
 @keyframes info-shadow-white {
     20% {
-        box-shadow: 0 0 5px #00a18c
+        box-shadow: 0 0 5px #8E8DCF
     }
     to {
         box-shadow: 0 0 100px #000807
@@ -3272,7 +3272,7 @@ textarea.input {
 }
 
 .fix-price__info .link {
-    color: #00a18c;
+    color: #8E8DCF;
     font-size: 12px;
     font-weight: 800;
     margin-top: 2px
@@ -3291,7 +3291,7 @@ textarea.input {
     font-size: 26px;
     line-height: 28px;
     font-weight: 800;
-    color: #00a18c;
+    color: #8E8DCF;
     position: relative
 }
 
@@ -3532,7 +3532,7 @@ textarea.input {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background-color: #00a18c
+    background-color: #8E8DCF
 }
 
 .gift__item {
@@ -4506,7 +4506,7 @@ textarea.input {
     font-family: Gilroy, sans-serif;
     font-weight: 800;
     font-style: normal;
-    color: #00a18c;
+    color: #8E8DCF;
     display: block;
     text-align: center;
     font-size: 36px;
@@ -4584,7 +4584,7 @@ textarea.input {
     font-family: Gilroy, sans-serif;
     font-weight: 800;
     font-style: normal;
-    color: #00a18c;
+    color: #8E8DCF;
     font-size: 36px;
     top: 24px;
     position: relative;
@@ -5062,7 +5062,7 @@ textarea.input {
     font-size: 14px;
     letter-spacing: .42px;
     text-transform: uppercase;
-    color: #00a18c;
+    color: #8E8DCF;
     background: #fff;
     height: 58px;
     display: flex;
@@ -5077,7 +5077,7 @@ textarea.input {
 }
 
 .tabs__nav li.active {
-    background: #00a18c;
+    background: #8E8DCF;
     color: #fff;
     cursor: auto
 }
@@ -5963,7 +5963,7 @@ textarea.input {
     font-weight: 700;
     font-style: normal;
     padding: 33px 33px 33px 127px;
-    background: #00a18c;
+    background: #8E8DCF;
     color: #fff;
     font-size: 18px;
     position: relative;
@@ -6168,8 +6168,8 @@ textarea.input {
 }
 
 .works__slider .slick-dots li.slick-active button {
-    background: #00a18c;
-    border: 1px solid #00a18c
+    background: #8E8DCF;
+    border: 1px solid #8E8DCF
 }
 
 .works__slider .slick-dots button {
@@ -6215,7 +6215,7 @@ textarea.input {
 }
 
 .works__before-after div:first-child span {
-    background: #00a18c
+    background: #8E8DCF
 }
 
 .works__before-after div:last-child span {
@@ -6246,7 +6246,7 @@ textarea.input {
     width: 60px;
     height: 60px;
     box-shadow: 0 15px 21px rgba(4, 196, 208, .13);
-    background-color: #00a18c;
+    background-color: #8E8DCF;
     border-radius: 50%;
     display: block;
     position: absolute;
@@ -7007,7 +7007,7 @@ textarea.input {
     font-family: Gilroy, sans-serif;
     font-weight: 800;
     font-style: normal;
-    color: #00a18c;
+    color: #8E8DCF;
     font-size: 22px;
     max-width: 255px;
     margin-top: 18px
@@ -7441,13 +7441,13 @@ textarea.input {
     font-family: ProximaNova, sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #00a18c;
+    color: #8E8DCF;
     margin-top: 3px;
     cursor: pointer
 }
 
 .reviews__more svg {
-    stroke: #00a18c;
+    stroke: #8E8DCF;
     stroke-width: 2;
     transition: transform .3s
 }
@@ -8113,7 +8113,7 @@ textarea.input {
 
 .m-decision__form__title:before {
     content: "â—";
-    color: #00a18c;
+    color: #8E8DCF;
     position: absolute;
     font-size: 12px;
     left: -3px;
@@ -8499,7 +8499,6 @@ textarea.input {
 }
 
 .m-safety__flex>div {
-    flex-basis: 33.33%;
     max-width: 340px
 }
 
@@ -8601,12 +8600,12 @@ textarea.input {
         background-repeat: no-repeat
     }
     .m-safety-slider-arrows .slick-arrow:first-child {
-        left: 0;
+        left: 20px;
         transform: translate(-50%, -50%);
         background-image: url(../i/e34c9a12efec76d6059223ac14ea9d72.svg)
     }
     .m-safety-slider-arrows .slick-arrow:last-child {
-        right: 0;
+        right: 20px;
         transform: translate(50%, -50%);
         background-image: url(../i/ab72cca472822ee5499e870c2fb08683.svg)
     }
@@ -8618,8 +8617,9 @@ textarea.input {
         max-width: none
     }
     .m-safety__flex .slick-list {
-        width: calc(100% - 80px);
-        overflow: visible
+        width: calc(100% - 100px);
+        margin: 0 auto;
+        overflow: hidden
     }
     .m-safety__flex__item {
         padding-left: 12px;
@@ -8630,7 +8630,7 @@ textarea.input {
 
 @media screen and (max-width:567px) {
     .m-safety__flex .slick-list {
-        width: calc(100% - 55px)
+        width: calc(100% - 100px)
     }
 }
 
@@ -8650,6 +8650,8 @@ textarea.input {
 
 .ir__list {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin: 53px -15px 0
 }
 
@@ -8768,7 +8770,7 @@ textarea.input {
     display: block;
     position: relative;
     padding: 63px 550px 63px 70px;
-    background: #00a18c url(../i/212ba7a423362feaa772d4817f5fe1d2.png) 100% no-repeat;
+    background: #8E8DCF url(../i/212ba7a423362feaa772d4817f5fe1d2.png) 100% no-repeat;
     color: #fff;
     border-radius: 0 0 14px 14px
 }
