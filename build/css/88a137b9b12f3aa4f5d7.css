@@ -2089,8 +2089,8 @@ textarea.input {
         max-width: 800px
     }
     .quote__avatar {
-        width: 67px;
-        height: 67px;
+        width: 150px;
+        height: 150px;
         margin-right: 30px
     }
     .quote__avatar.quote__avatar:after {
@@ -2482,96 +2482,6 @@ textarea.input {
     }
     .vq__inner {
         padding: 14px 20px 14px 15px
-    }
-}
-
-.notice {
-    font-size: 16px;
-    font-weight: 700;
-    background-color: #315b96;
-    color: #fff
-}
-
-.notice .row {
-    display: flex;
-    align-items: center;
-    min-height: 80px;
-    box-sizing: border-box;
-    padding-right: 181px;
-    padding-left: 181px
-}
-
-.notice__text {
-    display: block;
-    position: relative;
-    padding-left: 41px
-}
-
-.notice__text:before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    background: url(/build/i/21a174662aebf104d0c2f81ce486ac72.svg)
-}
-
-.notice__img {
-    margin-left: auto;
-    margin-right: 80px
-}
-
-@media screen and (max-width:1359px) {
-    .notice {
-        font-size: 16px
-    }
-    .notice .row {
-        padding-right: 47px;
-        padding-left: 47px
-    }
-    .notice__text {
-        margin-left: 0
-    }
-    .notice__img {
-        margin-left: auto;
-        padding: 0;
-        margin-right: 0
-    }
-}
-
-@media screen and (max-width:1023px) {
-    .notice {
-        font-size: 16px
-    }
-    .notice .row {
-        padding-right: 30px;
-        padding-left: 30px
-    }
-}
-
-@media screen and (max-width:767px) {
-    .notice .row {
-        padding-left: 14px;
-        position: relative;
-        padding-top: 18px;
-        padding-bottom: 18px
-    }
-    .notice__img {
-        position: absolute;
-        bottom: 0;
-        right: 5px;
-        width: 118px
-    }
-    .notice__text {
-        max-width: 80%;
-        z-index: 10
-    }
-    .notice__text:before {
-        top: 0;
-        transform: none
     }
 }
 
@@ -5499,7 +5409,9 @@ textarea.input {
 }
 
 .price-formula__total__prices .old {
-    text-decoration: line-through
+    text-decoration: line-through;
+    margin-bottom: 10px;
+    display: inline-block;
 }
 
 .price-formula__total__prices .new {
@@ -5512,7 +5424,7 @@ textarea.input {
     position: absolute;
     width: 250px;
     right: 40px;
-    top: 50px;
+    top: 30px;
     text-align: center
 }
 

@@ -2666,7 +2666,7 @@ textarea.input {
         position: absolute;
         left: -36px;
         top: 0;
-        overflow: visible
+        overflow: hidden
     }
     .m-contact__info {
         order: 2;
@@ -2925,10 +2925,6 @@ textarea.input {
     margin-left: 55px
 }
 
-.header__right .btn_call {
-    margin: 0!important
-}
-
 .header__logo {
     width: 200px;
     margin-right: 66px;
@@ -3086,7 +3082,7 @@ textarea.input {
 
 @media screen and (max-width:767px) {
     .header__right .btn {
-        margin-left: 35px
+        margin-left: 10px
     }
 }
 
@@ -3431,6 +3427,9 @@ textarea.input {
     .first-screen {
         background: radial-gradient(at 100%, at 100px, rgba(222, 241, 238, 0) 0, #def1ee 80%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 70% top/auto 650px no-repeat;
         background: radial-gradient(at 100% 100px, rgba(222, 241, 238, 0) 0, #def1ee 80%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 70% top/auto 650px no-repeat;
+    }
+    .notice__img {
+        display: none;
     }
     .fs__flex {
         width: 320px
@@ -5838,7 +5837,6 @@ textarea.input {
         width: 100%;
         text-align: center;
         margin-bottom: 8px;
-        height: 94px
     }
     .price__img,
     .price__val-wrap {
@@ -6077,9 +6075,6 @@ textarea.input {
 @media screen and (max-width:639px) {
     .video-block {
         padding-bottom: 50px
-    }
-    .video-block__desktop-text {
-        display: none
     }
     .video-block__mobile-text {
         display: block
@@ -6546,10 +6541,14 @@ textarea.input {
     }
     .works__before-after>div {
         width: 100%;
-        padding: 0
+        height: 163px;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
     }
     .works__before-after>div img {
-        width: 100%
+        width: 100%;
+        height: auto;
     }
     .works__before-after>div span {
         left: 0
@@ -7181,13 +7180,16 @@ textarea.input {
         margin-top: 28px
     }
     .employees__slider-item>div {
-        min-height: 228px;
+        min-height: 270px;
         padding: 25px
     }
     .employees__photo {
-        height: calc(100% - 30px)
+        height: calc(100% - 30px);
+        display: flex;
+        align-items: flex-end;
     }
     .employees__photo img {
+        height: 80%;
         right: -10px;
         position: relative
     }
