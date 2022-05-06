@@ -4813,7 +4813,7 @@
             var n = _createSuper(WorksSlider);
 
             function WorksSlider() { return _classCallCheck(this, WorksSlider), n.apply(this, arguments) }
-            return function _createClass(e, t, n) { return t && _defineProperties(e.prototype, t), n && _defineProperties(e, n), e }(WorksSlider, [{ key: "_init", value: function _init() { this.$wrappers = e('[data-js="work-slider-wrapper"]'); var t = { infinite: !0, dots: !1, arrows: !0, focusOnSelect: !0, slidesToShow: 3, slidesToScroll: 1, prevArrow: this.$wrappers.find(".slider__arrows span:nth-child(1)"), nextArrow: this.$wrappers.find(".slider__arrows span:nth-child(2)"), responsive: [{ breakpoint: 1024, settings: { slidesToShow: 2, arrows: !0 } }, { breakpoint: 840, settings: { slidesToShow: 2, arrows: !1, autoplay: !1, autoplaySpeed: 2e3 } }, { breakpoint: 570, settings: { slidesToShow: 1, adaptiveHeight: true, } }] }; return this.options = e.extend(t, this.options, !0), !0 } }, { key: "_bind", value: function _bind() { var t = this; return this.$wrappers.each((function(n, i) { e(i).find('[data-js="works-slider"]').slick(t.options) })), !0 } }]), WorksSlider
+            return function _createClass(e, t, n) { return t && _defineProperties(e.prototype, t), n && _defineProperties(e, n), e }(WorksSlider, [{ key: "_init", value: function _init() { this.$wrappers = e('[data-js="work-slider-wrapper"]'); var t = { infinite: !0, dots: !1, arrows: !0, focusOnSelect: !0, slidesToShow: 3, slidesToScroll: 1, prevArrow: this.$wrappers.find(".slider__arrows span:nth-child(1)"), nextArrow: this.$wrappers.find(".slider__arrows span:nth-child(2)"), responsive: [{ breakpoint: 1024, settings: { slidesToShow: 2, arrows: !0 } }, { breakpoint: 840, settings: { slidesToShow: 2, arrows: !1, autoplay: !1, autoplaySpeed: 2e3 } }, { breakpoint: 570, settings: { slidesToShow: 1, adaptiveHeight: false, } }] }; return this.options = e.extend(t, this.options, !0), !0 } }, { key: "_bind", value: function _bind() { var t = this; return this.$wrappers.each((function(n, i) { e(i).find('[data-js="works-slider"]').slick(t.options) })), !0 } }]), WorksSlider
         }(n(0).a)
     }).call(this, n(1))
 }, function(e, t, n) {
@@ -5089,9 +5089,9 @@
                             u = o.find('[data-js-quiz-navigation="back"]'),
                             p = o.find('[data-js-quiz-navigation="forward"]'),
                             f = o.find(".quiz__after-submit"),
-                            h = e.extend(t._copyObj(t.options), { asNavFor: l, adaptiveHeight: !0 }, !0);
+                            h = e.extend(t._copyObj(t.options), { asNavFor: l, adaptiveHeight: !1 }, !0);
                         t._bindTo(s, "init", (function(e, n) { t.navigationCheck(n, c, u, p) })), s.slick(h), t._bindTo(s, "afterChange", (function(e, n) { t.navigationCheck(n, c, u, p) })), t._bindTo(u, "click", (function(e) { s.slick("slickPrev") })), t._bindTo(p, "click", (function(n) { s.slick("slickNext"), e(n.currentTarget).data("js-results") && (r.fadeOut(200), a.fadeOut(200), t.showResultsCount(o)) }));
-                        var m = e.extend(t._copyObj(t.options), { asNavFor: s, fade: !0, adaptiveHeight: !0 }, !0);
+                        var m = e.extend(t._copyObj(t.options), { asNavFor: s, fade: !0, adaptiveHeight: !1 }, !0);
                         l.slick(m), t._bindTo(o, "form:done", (function() { o.find(".quiz__results").fadeOut(100), f.fadeIn(200) }))
                     })), this._bindTo(e(window), "modal:opened", (function(t, n) { e(n).find("[data-js-slider]").slick("refresh") })), this.textarea(), !0
                 }
