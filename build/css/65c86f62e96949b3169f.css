@@ -3385,10 +3385,6 @@ textarea.input {
     line-height: 1.6
 }
 
-.img_small {
-    display: none
-}
-
 @media screen and (max-width:1199px) {
     .first-screen {
         padding-top: 32px;
@@ -3432,17 +3428,23 @@ textarea.input {
         display: none;
     }
     .fs__flex {
-        width: 320px
+        width: 100%
     }
     .fs__calc,
     .fs__flex {
         flex-direction: column-reverse
     }
+    .fs__calc>div {
+        display: flex;
+        align-items: center;
+    }
     .fs__calc img {
-        display: none
+        width: 100px;
     }
     .fs__calc .btn {
-        width: 280px
+        width: 250px;
+        padding: 15px 0;
+        font-size: 12px;
     }
     .fs__calc div {
         margin-top: 20px
@@ -3465,12 +3467,6 @@ textarea.input {
         width: 75px;
         height: 75px
     }
-    .img_long {
-        display: none
-    }
-    .img_small {
-        display: block
-    }
     .fs__add-item {
         margin-right: 10px
     }
@@ -3492,6 +3488,14 @@ textarea.input {
         width: 280px;
         height: 105px;
         padding-left: 30px
+    }
+    .notice .row {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .notice__text {
+        margin-bottom: 20px;
     }
     .fix-price .fix-price__image {
         display: none
@@ -6991,7 +6995,8 @@ textarea.input {
 }
 
 .employees__photo img {
-    height: 100%
+    height: 100%;
+    width: auto;
 }
 
 .employees__experience {
