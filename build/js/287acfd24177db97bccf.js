@@ -4813,7 +4813,7 @@
             var n = _createSuper(WorksSlider);
 
             function WorksSlider() { return _classCallCheck(this, WorksSlider), n.apply(this, arguments) }
-            return function _createClass(e, t, n) { return t && _defineProperties(e.prototype, t), n && _defineProperties(e, n), e }(WorksSlider, [{ key: "_init", value: function _init() { this.$wrappers = e('[data-js="work-slider-wrapper"]'); var t = { infinite: !0, dots: !1, arrows: !0, focusOnSelect: !0, slidesToShow: 3, slidesToScroll: 1, prevArrow: this.$wrappers.find(".slider__arrows span:nth-child(1)"), nextArrow: this.$wrappers.find(".slider__arrows span:nth-child(2)"), responsive: [{ breakpoint: 1024, settings: { slidesToShow: 2, arrows: !0 } }, { breakpoint: 840, settings: { slidesToShow: 2, arrows: !1, autoplay: !0, autoplaySpeed: 2e3 } }, { breakpoint: 570, settings: { slidesToShow: 1, adaptiveHeight: true, } }] }; return this.options = e.extend(t, this.options, !0), !0 } }, { key: "_bind", value: function _bind() { var t = this; return this.$wrappers.each((function(n, i) { e(i).find('[data-js="works-slider"]').slick(t.options) })), !0 } }]), WorksSlider
+            return function _createClass(e, t, n) { return t && _defineProperties(e.prototype, t), n && _defineProperties(e, n), e }(WorksSlider, [{ key: "_init", value: function _init() { this.$wrappers = e('[data-js="work-slider-wrapper"]'); var t = { infinite: !0, dots: !1, arrows: !0, focusOnSelect: !0, slidesToShow: 3, slidesToScroll: 1, prevArrow: this.$wrappers.find(".slider__arrows span:nth-child(1)"), nextArrow: this.$wrappers.find(".slider__arrows span:nth-child(2)"), responsive: [{ breakpoint: 1024, settings: { slidesToShow: 2, arrows: !0 } }, { breakpoint: 840, settings: { slidesToShow: 2, arrows: !1, autoplay: !1, autoplaySpeed: 2e3 } }, { breakpoint: 570, settings: { slidesToShow: 1, adaptiveHeight: true, } }] }; return this.options = e.extend(t, this.options, !0), !0 } }, { key: "_bind", value: function _bind() { var t = this; return this.$wrappers.each((function(n, i) { e(i).find('[data-js="works-slider"]').slick(t.options) })), !0 } }]), WorksSlider
         }(n(0).a)
     }).call(this, n(1))
 }, function(e, t, n) {
@@ -4856,12 +4856,10 @@
             var n = _createSuper(PhotoGallery);
             e('[data-js="lab-gallery-slider"]').slick({
                 arrows: false,
-                autoplay: true,
-                autoplaySpeed: 1200,
             });
 
             function PhotoGallery() { return _classCallCheck(this, PhotoGallery), n.apply(this, arguments) }
-            return function _createClass(e, t, n) { return t && _defineProperties(e.prototype, t), n && _defineProperties(e, n), e }(PhotoGallery, [{ key: "_init", value: function _init() { this.$wrappers = e('[data-js="photo-gallery-slider-wrapper"]'); return this.options = e.extend({ infinite: !0, dots: !1, arrows: !1, autoplay: !0, autoplaySpeed: 4e3, slidesToShow: 3, responsive: [{ breakpoint: 768, settings: { slidesToShow: 1 } }] }, this.options, !0), !0 } }, { key: "_bind", value: function _bind() { var t = this; return this.$wrappers.each((function(n, i) { e(i).find('[data-js="photo-gallery-slider"]').slick(t.options) })), !0 } }]), PhotoGallery
+            return function _createClass(e, t, n) { return t && _defineProperties(e.prototype, t), n && _defineProperties(e, n), e }(PhotoGallery, [{ key: "_init", value: function _init() { this.$wrappers = e('[data-js="photo-gallery-slider-wrapper"]'); return this.options = e.extend({ infinite: !0, dots: !1, arrows: !1, autoplay: 0, slidesToShow: 3, responsive: [{ breakpoint: 768, settings: { slidesToShow: 1 } }] }, this.options, !0), !0 } }, { key: "_bind", value: function _bind() { var t = this; return this.$wrappers.each((function(n, i) { e(i).find('[data-js="photo-gallery-slider"]').slick(t.options) })), !0 } }]), PhotoGallery
         }(n(0).a)
     }).call(this, n(1))
 }, function(e, t, n) {
