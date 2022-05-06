@@ -3179,6 +3179,11 @@ textarea.input {
     right: 3px
 }
 
+.fs__add-item img {
+    width: 100%;
+    height: auto;
+}
+
 .fs__add-item>* {
     padding: 11px;
     width: 100%;
