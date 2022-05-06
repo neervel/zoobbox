@@ -2776,6 +2776,10 @@ textarea.input {
         order: 4;
         flex-basis: calc(38% - 10px)
     }
+    .logo {
+        width: 150px;
+        height: auto;
+    }
 }
 
 .m-footer-wrapper {
