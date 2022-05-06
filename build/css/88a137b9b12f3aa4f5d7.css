@@ -5347,12 +5347,13 @@ textarea.input {
     color: #5f6d81;
     font-size: 24px;
     letter-spacing: .6px;
-    margin-top: 28px;
+    margin-top: 16px;
     margin-bottom: 19px
 }
 
 .price-formula__item__prices .old {
-    text-decoration: line-through
+    text-decoration: line-through;
+    line-height: 1.5;
 }
 
 .price-formula__item__prices .new {
