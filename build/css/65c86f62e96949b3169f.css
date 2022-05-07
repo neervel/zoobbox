@@ -3111,7 +3111,7 @@ textarea.input {
 }
 
 .first-screen {
-    background: linear-gradient(90deg, #def1ee, #def1ee 40%, rgba(249, 218, 201, 0) 66%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 55% top/auto 650px no-repeat;
+    background: linear-gradient(90deg, #def1ee, #def1ee 40%, rgba(249, 218, 201, 0) 66%), url(../i/first-screen.png) #def1ee 100% bottom/auto 100% no-repeat;
     padding-top: 38px;
     padding-bottom: 78px;
 }
@@ -3430,8 +3430,7 @@ textarea.input {
 
 @media screen and (max-width:767px) {
     .first-screen {
-        background: radial-gradient(at 100%, at 100px, rgba(222, 241, 238, 0) 0, #def1ee 80%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 70% top/auto 650px no-repeat;
-        background: radial-gradient(at 100% 100px, rgba(222, 241, 238, 0) 0, #def1ee 80%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 70% top/auto 650px no-repeat;
+        background-position-x: 200%;
     }
     .notice__img {
         display: none;
@@ -3516,8 +3515,8 @@ textarea.input {
 
 @media screen and (max-width:567px) {
     .first-screen {
-        background: radial-gradient(at 100%, at 100px, rgba(222, 241, 238, 0) 0, #def1ee 50%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 70% top/auto 470px no-repeat;
-        background: radial-gradient(at 100% 100px, rgba(222, 241, 238, 0) 0, #def1ee 50%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 70% top/auto 470px no-repeat;
+        background: radial-gradient(at 100%, at 100px, rgba(222, 241, 238, 0) 0, #def1ee 50%), url(../i/first-screen.png) #def1ee 70% top/auto 470px no-repeat;
+        background: radial-gradient(at 100% 100px, rgba(222, 241, 238, 0) 0, #def1ee 50%), url(../i/first-screen.png) #def1ee 70% top/auto 470px no-repeat;
     }
 }
 
@@ -8524,12 +8523,14 @@ textarea.input {
     margin-top: 40px;
 }
 
-.m-safety__flex>div {
-    max-width: 340px
+.m-safety__flex img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
-.m-safety__flex>div img {
-    border-radius: 6px
+.m-safety__flex>div {
+    max-width: 340px
 }
 
 .m-safety__flex__title {
@@ -8547,46 +8548,6 @@ textarea.input {
     font-size: 16px;
     margin-top: 16px;
     color: #77777f
-}
-
-.m-safety__flex__item {
-    position: relative;
-    padding-left: 30px;
-}
-
-.m-safety__flex__item::before {
-    content: '';
-    position: absolute;
-    left: 7px;
-    top: 8px;
-    height: 100%;
-    width: 2px;
-    background: #F4D0D0;
-    z-index: 0;
-}
-
-.m-safety__flex__item::after {
-    content: '';
-    border-radius: 50%;
-    top: 0;
-    left: 0;
-    width: 16px;
-    height: 16px;
-    background: #F4D0D0;
-    z-index: 1;
-    position: absolute;
-}
-
-.m-safety__flex__title::before {
-    content: '';
-    border-radius: 50%;
-    top: 4px;
-    left: -26px;
-    width: 8px;
-    height: 8px;
-    background: #DC2828;
-    z-index: 2;
-    position: absolute;
 }
 
 @media screen and (max-width:1280px) {
