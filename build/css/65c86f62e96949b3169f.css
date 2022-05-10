@@ -3111,7 +3111,7 @@ textarea.input {
 }
 
 .first-screen {
-    background: linear-gradient(90deg, #def1ee, #def1ee 40%, rgba(249, 218, 201, 0) 66%), url(../i/first-screen.png) #def1ee 100% bottom/auto 100% no-repeat;
+    background: linear-gradient(90deg, #def1ee, #def1ee 40%, rgba(249, 218, 201, 0) 66%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 55% top/auto 650px no-repeat;
     padding-top: 38px;
     padding-bottom: 78px;
 }
@@ -3430,7 +3430,8 @@ textarea.input {
 
 @media screen and (max-width:767px) {
     .first-screen {
-        background-position-x: 200%;
+        background: radial-gradient(at 100%, at 100px, rgba(222, 241, 238, 0) 0, #def1ee 80%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 70% top/auto 650px no-repeat;
+        background: radial-gradient(at 100% 100px, rgba(222, 241, 238, 0) 0, #def1ee 80%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 70% top/auto 650px no-repeat;
     }
     .notice__img {
         display: none;
@@ -3515,8 +3516,8 @@ textarea.input {
 
 @media screen and (max-width:567px) {
     .first-screen {
-        background: radial-gradient(at 100%, at 100px, rgba(222, 241, 238, 0) 0, #def1ee 50%), url(../i/first-screen.png) #def1ee 70% top/auto 470px no-repeat;
-        background: radial-gradient(at 100% 100px, rgba(222, 241, 238, 0) 0, #def1ee 50%), url(../i/first-screen.png) #def1ee 70% top/auto 470px no-repeat;
+        background: radial-gradient(at 100%, at 100px, rgba(222, 241, 238, 0) 0, #def1ee 50%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 70% top/auto 470px no-repeat;
+        background: radial-gradient(at 100% 100px, rgba(222, 241, 238, 0) 0, #def1ee 50%), url(../i/b92b13eccbd749ee00252d6a3b328313.jpg) #def1ee 70% top/auto 470px no-repeat;
     }
 }
 
