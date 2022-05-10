@@ -2409,6 +2409,10 @@ textarea.input {
     position: relative
 }
 
+.m-contact__map.mob {
+    display: none;
+}
+
 .contact__map-loader {
     display: block;
     position: absolute;
@@ -2667,6 +2671,12 @@ textarea.input {
         left: -36px;
         top: 0;
         overflow: hidden
+    }
+    .m-contact__map.desk {
+        display: none;
+    }
+    .m-contact__map.mob {
+        display: block;
     }
     .m-contact__info {
         order: 2;
@@ -6362,6 +6372,10 @@ textarea.input {
     padding: 0 15px;
     margin-bottom: 34px;
     position: relative
+}
+
+.works__video-item.new {
+    height: 240px;
 }
 
 .works__video-item:before {
