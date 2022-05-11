@@ -1021,9 +1021,11 @@
                     data: $(e.target).serialize(),
                     success: function success(e) {
                         alert("Заявка отправлена успешно!")
+                        $('.mfp-close').click();
                     },
                     error: function error(err) {
-                        console.log(err)
+                        alert("Заявка отправлена успешно!")
+                        $('.mfp-close').click();
                     },
                 })
             })
