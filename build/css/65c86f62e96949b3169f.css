@@ -6375,7 +6375,7 @@ textarea.input {
 }
 
 .works__video-item.new {
-    height: 240px;
+    height: auto;
 }
 
 .works__video-item:before {
